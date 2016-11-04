@@ -1,0 +1,71 @@
+<resources>
+    <!-- *******************************************************************************************
+         The strings have been named and grouped for easy translation in the future. Please be aware
+         that all toasts with server responses are defined on the server, and can therefore not be
+         translated in this project!
+    ******************************************************************************************** -->
+
+
+    <!-- ***********************
+    **** App values          ***
+    ************************ -->
+
+    <!-- Strings: -->
+    <string name="app_name">Care4Cleaning</string>
+
+
+
+    
+    <!-- ***********************
+    **** Create user dialog  ***
+    ************************ -->
+
+    <!-- Elements: -->
+    <string name="create_user_dialog_create_button">Login</string>
+    <string name="create_user_dialog_cancel_button">Cancel</string>
+    <string name="create_user_dialog_title">Login</string>
+    <string name="create_user_dialog_text">Write your username and log in. You only have to do this once.</string>
+
+    <!-- Toasts: -->
+    <string name="create_user_dialog_toast_blankfield">You must enter a name...</string>
+
+
+
+
+    <!-- ***********************
+    **** Image section       ***
+    ************************ -->
+
+    <!-- Elements: -->
+    <string name="image_section_cam_instructions">Tap above to take a new picture</string>
+
+
+
+
+    <!-- ***********************
+    **** Input section       ***
+    ************************ -->
+
+    <!-- Elements: -->
+    <string name="input_section_caseid_hint">Case ID</string>
+    <string name="input_section_description_hint">Description</string>
+    <string name="input_section_submit_button">Submit</string>
+        <!-- Submit button is also used for status messages when uploading or creating a user: -->
+        <string name="button_status_uploading">Uploading...</string>
+        <string name="button_status_creating">Logging in...</string>
+
+
+
+    <!-- ***********************
+    **** Validation          ***
+    ************************ -->
+
+    <!-- Toasts: -->
+    <string name="validation_missing_photo">Please take a photo...</string>
+    <string name="validation_empty_fields">Please fill out both fields...</string>
+
+    <!-- Field errors: -->
+    <string name="validation_field_caseid_missing">Enter the case ID</string>
+    <string name="validation_field_caseid_invalid">The ID you entered isn\'t valid</string>
+    <string name="validation_field_description_missing">Enter a description</string>
+</resources>
